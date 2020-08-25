@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+	<head>
+		
+	<title>
+		<b>Hello World</b>
+	</title>
+
+	</head>
+
+	<body>
+		<ol>
+		<l1> The following basic html code is to </l1>
+		</ol>
+	<br>
+		Git is a version control system that keeps track of changes and helps others to collaborate in the task. To make changes to OSS, companies often upload the source code on GitHub. Basics of Git-Bash. Git is available for fedora Linux too. Git comes in GUI and Bash/ Bash is Linux based CLI. Bash requires simple instructions to note. like $ commit - is to index the task. git basically uploads the snapshot of the task achieved, $ push - to send repository to remote, $ Pull - to retrieve repository from remote like GitHub, $ init - is for initializing Git
+
+other command line tabs commands are 
+
+cd.. - changes the directory, cd../.. to come back to primary directory eg.. $ cd e:/ or $ls -l or $ ls -a to list all the files in the folder. Alt one can use $ ls -al for hidden file.  
+
+$ git add <file name>
+
+$ git status : to see the status of the files
+
+go to start - ctrl + a; go to end - ctrl + e ; delete from end ctrl + k, from start ctrl + u; ctrl + l to clear screen. 
+
+add username and email prior to before making changes - $ git config —global [user.name](http://user.name) "xyz"
+
+$ git config —global [user.email](http://user.email) "xyz@abc"
+
+To check $ git config —list
+
+$ cd local-repo/ for local repository
+
+$ git init to initialize the repo
+
+$ touch .gitignore
+
+$ git add <file name> or git add -A to add all files
+
+you can reset unstaged to git rm —cached<file>
+
+after staging - commit using $ git commit -m "with a comment"
+
+then get $ git log
+
+cloning a remote repository : $ git clone <url> use ctrl+shift+Insert
+
+$ git commit "with a message"> git push > 
+
+To come out of the git window - press esc and :wq 
+
+dd Branches to git using $ git branch <file name> then git checkout <file name>
+</br>
+</body>
+</html>
